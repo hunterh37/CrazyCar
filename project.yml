@@ -1,0 +1,61 @@
+name: CrazyCar
+options:
+  bundleIdPrefix: com.hunter
+  deploymentTarget:
+    visionOS: "26.0"
+
+packages:
+  ImmersiveTesting:
+    path: ../ImmersiveTesting
+
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    SWIFT_STRICT_CONCURRENCY: complete
+
+targets:
+  CrazyCar:
+    type: application
+    platform: visionOS
+    sources:
+      - CrazyCar
+    dependencies:
+      - package: ImmersiveTesting
+        product: ImmersiveTestingRuntime
+    info:
+      path: CrazyCar/Info.plist
+      properties:
+        ITSAppUsesNonExemptEncryption: false
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: true
+          UIApplicationPreferredDefaultSceneSessionRole: UIWindowSceneSessionRoleApplication
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.hunter.CrazyCar
+        GENERATE_INFOPLIST_FILE: false
+        DEVELOPMENT_TEAM: NWR2UZ4V67
+        CURRENT_PROJECT_VERSION: 1
+        MARKETING_VERSION: "1.0"
+        INFOPLIST_KEY_CFBundleDisplayName: "Crazy Car"
+
+  CrazyCarTests:
+    type: bundle.unit-test
+    platform: visionOS
+    sources:
+      - CrazyCarTests
+    dependencies:
+      - target: CrazyCar
+      - package: ImmersiveTesting
+        product: ImmersiveTesting
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: true
+
+schemes:
+  CrazyCar:
+    build:
+      targets:
+        CrazyCar: all
+    test:
+      targets:
+        - CrazyCarTests

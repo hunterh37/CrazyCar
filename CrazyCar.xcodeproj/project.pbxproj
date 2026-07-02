@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B3F4C09B0367587FDBF2C2C /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB0F8EAE4190339EE5B72C9 /* ImmersiveView.swift */; };
+		4D40DB86E3918FAF5D7E2B10 /* CharacterBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127692B14109BBB20B959B4B /* CharacterBuilder.swift */; };
+		54B62DB5089AC5DCE488D51C /* CarSceneBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0D9BF017D7145BE1C76917 /* CarSceneBuilder.swift */; };
+		58F30CC8CA0C57AA458B7590 /* ExplosionBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B556810CF6CAE4278DC7959 /* ExplosionBuilder.swift */; };
+		71CE6EAF27026B1E96B2D850 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BCCB989E08236FF5DA2A46 /* MainMenuView.swift */; };
+		82FFDD7B47CA9E151619A1D9 /* ImmersiveTesting in Frameworks */ = {isa = PBXBuildFile; productRef = DE85D11B88CC52411CE7CC93 /* ImmersiveTesting */; };
+		8A0558AB1CD4A21E6388F38E /* CockpitBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC43F6D146BADBCAA58964E /* CockpitBuilder.swift */; };
+		955846449F40900FBA4AEAE8 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CABEA74A0C2E04BAAC45B2 /* Components.swift */; };
+		B170E71C410742016E4B0647 /* CrazyCarSceneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A80AC8FD71F0B7CBAC73B3 /* CrazyCarSceneTests.swift */; };
+		B5470E53CBCB44D2BCF37F81 /* CrazyCarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C44FEEE2DC2EE092D2C8869 /* CrazyCarApp.swift */; };
+		D013443800CB3DFF4279ADE0 /* ImmersiveTestingRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = 4153E966B620306B45F054E4 /* ImmersiveTestingRuntime */; };
+		EAFF5D2D9FF9D1F24D662945 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC785E8C759442684BE75761 /* GameViewModel.swift */; };
+		F854C23CBF219AFAB6F640B8 /* DriveSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0C06961E68655671384083 /* DriveSystem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D049AFC7597ABEFE580A1793 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EAC397BD4FD04FB8822A046 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45273C9996EE131CD3CC2DAC;
+			remoteInfo = CrazyCar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		127692B14109BBB20B959B4B /* CharacterBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterBuilder.swift; sourceTree = "<group>"; };
+		1B0C06961E68655671384083 /* DriveSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveSystem.swift; sourceTree = "<group>"; };
+		1BC43F6D146BADBCAA58964E /* CockpitBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CockpitBuilder.swift; sourceTree = "<group>"; };
+		33CABEA74A0C2E04BAAC45B2 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		4B556810CF6CAE4278DC7959 /* ExplosionBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplosionBuilder.swift; sourceTree = "<group>"; };
+		4D5D24CB2BF0D4EE6C5A36BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5C44FEEE2DC2EE092D2C8869 /* CrazyCarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrazyCarApp.swift; sourceTree = "<group>"; };
+		95A80AC8FD71F0B7CBAC73B3 /* CrazyCarSceneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrazyCarSceneTests.swift; sourceTree = "<group>"; };
+		96391C50A44F829E99F9E4BA /* ImmersiveTesting */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ImmersiveTesting; path = ../ImmersiveTesting; sourceTree = SOURCE_ROOT; };
+		BF0D9BF017D7145BE1C76917 /* CarSceneBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarSceneBuilder.swift; sourceTree = "<group>"; };
+		C0BCCB989E08236FF5DA2A46 /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
+		D79B59C5B64B103241154137 /* CrazyCar.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = CrazyCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC785E8C759442684BE75761 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		EDB0F8EAE4190339EE5B72C9 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		FD0E24653DD4F92CCAA842A1 /* CrazyCarTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = CrazyCarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B38809DDD8182F53F78ED56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D013443800CB3DFF4279ADE0 /* ImmersiveTestingRuntime in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87A1AF92D61F9B5166FC3A87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82FFDD7B47CA9E151619A1D9 /* ImmersiveTesting in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B5B95E562B6EF2C64BCE46F /* CrazyCar */ = {
+			isa = PBXGroup;
+			children = (
+				4D5D24CB2BF0D4EE6C5A36BF /* Info.plist */,
+				D0B0608F0ABA8DE754E9E1E4 /* App */,
+				38AC59DCA799BF39CC73EFE3 /* Game */,
+			);
+			path = CrazyCar;
+			sourceTree = "<group>";
+		};
+		38AC59DCA799BF39CC73EFE3 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				BF0D9BF017D7145BE1C76917 /* CarSceneBuilder.swift */,
+				127692B14109BBB20B959B4B /* CharacterBuilder.swift */,
+				1BC43F6D146BADBCAA58964E /* CockpitBuilder.swift */,
+				33CABEA74A0C2E04BAAC45B2 /* Components.swift */,
+				1B0C06961E68655671384083 /* DriveSystem.swift */,
+				4B556810CF6CAE4278DC7959 /* ExplosionBuilder.swift */,
+				EC785E8C759442684BE75761 /* GameViewModel.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		58EF706B8A2F6FEC99095429 /* CrazyCarTests */ = {
+			isa = PBXGroup;
+			children = (
+				95A80AC8FD71F0B7CBAC73B3 /* CrazyCarSceneTests.swift */,
+			);
+			path = CrazyCarTests;
+			sourceTree = "<group>";
+		};
+		D0B0608F0ABA8DE754E9E1E4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5C44FEEE2DC2EE092D2C8869 /* CrazyCarApp.swift */,
+				EDB0F8EAE4190339EE5B72C9 /* ImmersiveView.swift */,
+				C0BCCB989E08236FF5DA2A46 /* MainMenuView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DB326E538CDD61665A752107 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				96391C50A44F829E99F9E4BA /* ImmersiveTesting */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		EA248B8EF5FF224614335ABE = {
+			isa = PBXGroup;
+			children = (
+				1B5B95E562B6EF2C64BCE46F /* CrazyCar */,
+				58EF706B8A2F6FEC99095429 /* CrazyCarTests */,
+				DB326E538CDD61665A752107 /* Packages */,
+				F95876F2F356F0CBFF870F2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F95876F2F356F0CBFF870F2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D79B59C5B64B103241154137 /* CrazyCar.app */,
+				FD0E24653DD4F92CCAA842A1 /* CrazyCarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45273C9996EE131CD3CC2DAC /* CrazyCar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1011EC72656D48C89F573B15 /* Build configuration list for PBXNativeTarget "CrazyCar" */;
+			buildPhases = (
+				29FB405F93AF6A71F0154353 /* Sources */,
+				0B38809DDD8182F53F78ED56 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrazyCar;
+			packageProductDependencies = (
+				4153E966B620306B45F054E4 /* ImmersiveTestingRuntime */,
+			);
+			productName = CrazyCar;
+			productReference = D79B59C5B64B103241154137 /* CrazyCar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9A420CF5BB2443616DE0027 /* CrazyCarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC3A5C0F8853A21416196D71 /* Build configuration list for PBXNativeTarget "CrazyCarTests" */;
+			buildPhases = (
+				BE0DC28742B39BA346C15A43 /* Sources */,
+				87A1AF92D61F9B5166FC3A87 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB8E36D8A64CE17086B9F661 /* PBXTargetDependency */,
+			);
+			name = CrazyCarTests;
+			packageProductDependencies = (
+				DE85D11B88CC52411CE7CC93 /* ImmersiveTesting */,
+			);
+			productName = CrazyCarTests;
+			productReference = FD0E24653DD4F92CCAA842A1 /* CrazyCarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EAC397BD4FD04FB8822A046 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					45273C9996EE131CD3CC2DAC = {
+						DevelopmentTeam = NWR2UZ4V67;
+					};
+				};
+			};
+			buildConfigurationList = 69CB434D0616FBC59BD42EBB /* Build configuration list for PBXProject "CrazyCar" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = EA248B8EF5FF224614335ABE;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D363E51CEE2CA4E0844F5B13 /* XCLocalSwiftPackageReference "../ImmersiveTesting" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F95876F2F356F0CBFF870F2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45273C9996EE131CD3CC2DAC /* CrazyCar */,
+				E9A420CF5BB2443616DE0027 /* CrazyCarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29FB405F93AF6A71F0154353 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54B62DB5089AC5DCE488D51C /* CarSceneBuilder.swift in Sources */,
+				4D40DB86E3918FAF5D7E2B10 /* CharacterBuilder.swift in Sources */,
+				8A0558AB1CD4A21E6388F38E /* CockpitBuilder.swift in Sources */,
+				955846449F40900FBA4AEAE8 /* Components.swift in Sources */,
+				B5470E53CBCB44D2BCF37F81 /* CrazyCarApp.swift in Sources */,
+				F854C23CBF219AFAB6F640B8 /* DriveSystem.swift in Sources */,
+				58F30CC8CA0C57AA458B7590 /* ExplosionBuilder.swift in Sources */,
+				EAFF5D2D9FF9D1F24D662945 /* GameViewModel.swift in Sources */,
+				1B3F4C09B0367587FDBF2C2C /* ImmersiveView.swift in Sources */,
+				71CE6EAF27026B1E96B2D850 /* MainMenuView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0DC28742B39BA346C15A43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B170E71C410742016E4B0647 /* CrazyCarSceneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB8E36D8A64CE17086B9F661 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45273C9996EE131CD3CC2DAC /* CrazyCar */;
+			targetProxy = D049AFC7597ABEFE580A1793 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2DD2168D1B87839C91ADD6C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hunter.CrazyCarTests;
+				SDKROOT = xros;
+				TARGETED_DEVICE_FAMILY = 7;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrazyCar.app/CrazyCar";
+			};
+			name = Release;
+		};
+		3FABEAC2BF1E6EC9A5414269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				XROS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		69CA57374563B7AA0FA8394A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NWR2UZ4V67;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CrazyCar/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Crazy Car";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hunter.CrazyCar;
+				SDKROOT = xros;
+				TARGETED_DEVICE_FAMILY = 7;
+			};
+			name = Release;
+		};
+		73FFA1FBBD6E4C5E7AF61EB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hunter.CrazyCarTests;
+				SDKROOT = xros;
+				TARGETED_DEVICE_FAMILY = 7;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrazyCar.app/CrazyCar";
+			};
+			name = Debug;
+		};
+		895B13341FC3BB4DDA1F88C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				XROS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		8E957E6CDB44BE591E086983 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NWR2UZ4V67;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CrazyCar/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Crazy Car";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hunter.CrazyCar;
+				SDKROOT = xros;
+				TARGETED_DEVICE_FAMILY = 7;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1011EC72656D48C89F573B15 /* Build configuration list for PBXNativeTarget "CrazyCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E957E6CDB44BE591E086983 /* Debug */,
+				69CA57374563B7AA0FA8394A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		69CB434D0616FBC59BD42EBB /* Build configuration list for PBXProject "CrazyCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FABEAC2BF1E6EC9A5414269 /* Debug */,
+				895B13341FC3BB4DDA1F88C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BC3A5C0F8853A21416196D71 /* Build configuration list for PBXNativeTarget "CrazyCarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73FFA1FBBD6E4C5E7AF61EB8 /* Debug */,
+				2DD2168D1B87839C91ADD6C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		D363E51CEE2CA4E0844F5B13 /* XCLocalSwiftPackageReference "../ImmersiveTesting" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../ImmersiveTesting;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4153E966B620306B45F054E4 /* ImmersiveTestingRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ImmersiveTestingRuntime;
+		};
+		DE85D11B88CC52411CE7CC93 /* ImmersiveTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ImmersiveTesting;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7EAC397BD4FD04FB8822A046 /* Project object */;
+}
