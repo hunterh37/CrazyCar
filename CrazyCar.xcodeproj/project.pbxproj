@@ -205,7 +205,7 @@
 			mainGroup = EA248B8EF5FF224614335ABE;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				D363E51CEE2CA4E0844F5B13 /* XCLocalSwiftPackageReference "../ImmersiveTesting" */,
+				D363E51CEE2CA4E0844F5B13 /* XCRemoteSwiftPackageReference "ImmersiveTesting" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = F95876F2F356F0CBFF870F2A /* Products */;
@@ -482,20 +482,26 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCLocalSwiftPackageReference section */
-		D363E51CEE2CA4E0844F5B13 /* XCLocalSwiftPackageReference "../ImmersiveTesting" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ../ImmersiveTesting;
+/* Begin XCRemoteSwiftPackageReference section */
+		D363E51CEE2CA4E0844F5B13 /* XCRemoteSwiftPackageReference "ImmersiveTesting" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hunterh37/ImmersiveTesting";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.0;
+			};
 		};
-/* End XCLocalSwiftPackageReference section */
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		4153E966B620306B45F054E4 /* ImmersiveTestingRuntime */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = D363E51CEE2CA4E0844F5B13 /* XCRemoteSwiftPackageReference "ImmersiveTesting" */;
 			productName = ImmersiveTestingRuntime;
 		};
 		DE85D11B88CC52411CE7CC93 /* ImmersiveTesting */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = D363E51CEE2CA4E0844F5B13 /* XCRemoteSwiftPackageReference "ImmersiveTesting" */;
 			productName = ImmersiveTesting;
 		};
 /* End XCSwiftPackageProductDependency section */
